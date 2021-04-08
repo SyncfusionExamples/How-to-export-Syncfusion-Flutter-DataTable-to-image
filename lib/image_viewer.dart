@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 
 class ImageViewPage extends StatefulWidget {
   ImageViewPage(
-      {this.imageData, this.byteData, this.dataGridHeight, this.dataGridWidth});
+      {required this.imageData, required this.byteData, required this.dataGridHeight, required this.dataGridWidth});
   final Uint8List imageData;
   final ByteData byteData;
   final double dataGridHeight;
